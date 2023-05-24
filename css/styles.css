@@ -23,20 +23,20 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-grid>button {
+.calculator-grid > button {
   cursor: pointer;
   font-size: 2rem;
   outline: none;
   border: 1px solid white;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
-.calculator-grid>button:active {
+.calculator-grid > button:active {
   box-shadow: 0 0px 0 rgb(255 255 255 / 75%);
 }
 
-.calculator-grid>button:hover {
-  background-color: rgba(255, 255, 255, .9);
+.calculator-grid > button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .span-two {
@@ -46,7 +46,7 @@ body {
 .output {
   border: 2px white solid;
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -57,7 +57,7 @@ body {
 }
 
 .output .previous-operand {
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
 
